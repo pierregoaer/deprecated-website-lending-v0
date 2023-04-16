@@ -1,0 +1,106 @@
+/* --- Hero section --- */
+.hero--container {
+    height: calc(100vh - 109px);
+    display: flex;
+    align-items: center;
+}
+
+.hero--container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../../public/images/electricien-nimes-background.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+}
+
+.hero--main {
+    display: flex;
+    align-items: center;
+}
+
+.hero--main .hero--text {
+    flex-grow: 2;
+    padding: 30px;
+}
+
+.hero--main .hero--image {
+    flex-grow: 1;
+}
+
+.hero--text h1 {
+    font-size: 3.5rem;
+}
+
+.hero--text p {
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+
+/* --- Services section --- */
+.home--services--container {
+    height: fit-content;
+    /*background-color: var(--secondary-section-background-color);*/
+}
+
+.home--services--main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home--services--main h2 {
+    text-align: center;
+}
+
+.home--services--text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.home--services--text p{
+    width: 700px;
+}
+
+.home--services--grid {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+
+.home--services--service {
+    padding: 45px;
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
+
+}
+
+.home--services--service:nth-child(even) {
+    transform: translateY(20px);
+}
+
+.home--services--service svg {
+    width: 70px;
+    height: 70px;
+    fill: var(--main-blue);
+    margin-bottom: 25px;
+}
+
+.home--services--service h4 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.home--services--service p {
+    font-size: 1.2rem;
+    color: var(--secondary-text-color)
+}

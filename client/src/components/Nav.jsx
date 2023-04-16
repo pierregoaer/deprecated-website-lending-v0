@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/styles.css';
 import '../styles/nav.css';
 
 export default function Nav() {
@@ -9,7 +8,7 @@ export default function Nav() {
 		<header className="header--container">
 			<div className="header--main">
 				<Link to={'/'} className="header--logo-container">
-					<img className="header--logo" src="/logo_main.png" alt="" />
+					<img className="header--logo" src="/logos/logo_main.png" alt="" />
 				</Link>
 				<ul className="header--main-navigation" data-visible="false">
 					<li>

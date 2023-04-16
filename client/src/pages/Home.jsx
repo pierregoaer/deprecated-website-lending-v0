@@ -1,12 +1,14 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Hero from '../components/Hero';
+import HomeServices from '../components/HomeServices';
+
+import '../styles/home.css';
 
 export default function Home() {
 	return (
 		<>
-			<Nav />
 			<Hero />
+			<HomeServices />
 		</>
 	);
 }

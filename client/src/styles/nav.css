@@ -1,7 +1,5 @@
 .header--container {
-	/* border: 1px solid red; */
-	background-color: #f4f4f4;
-	/* height: 100px; */
+	background-color: var(--primary-section-background-color);
 	padding: 30px 20px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
 }
@@ -11,7 +9,8 @@
 	align-items: center;
 	justify-content: space-between;
 	margin: 0 auto;
-	max-width: 1000px;
+	padding: 0 20px;
+	max-width: 1400px;
 }
 
 .header--main img {
@@ -29,8 +28,7 @@
 
 .header--main-navigation-contact {
 	padding: 10px 25px;
-	border-radius: 8px;
-	background-color: #3152f4;
+	background-color: var(--main-blue);
 	border-radius: 0.75rem;
 	font-size: 1.2rem;
 	color: #f4f4f4;
