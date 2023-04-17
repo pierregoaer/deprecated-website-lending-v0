@@ -31,9 +31,9 @@ export default function Nav() {
                     Contact
                 </Link>
                 <div className="header--mobile-nav-icon-container" data-visible={mobileNavVisible} onClick={handleDisplayMobileNav}>
-                    <div className={`mobile-nav-icon menu-top ${mobileNavVisible ? "active" : ""}`} onClick={handleDisplayMobileNav}></div>
-                    <div className={`mobile-nav-icon menu-middle ${mobileNavVisible ? "active" : ""}`} onClick={handleDisplayMobileNav}></div>
-                    <div className={`mobile-nav-icon menu-bottom ${mobileNavVisible ? "active" : ""}`} onClick={handleDisplayMobileNav}></div>
+                    <div className={`mobile-nav-icon menu-top ${mobileNavVisible ? "active" : ""}`}></div>
+                    <div className={`mobile-nav-icon menu-middle ${mobileNavVisible ? "active" : ""}`}></div>
+                    <div className={`mobile-nav-icon menu-bottom ${mobileNavVisible ? "active" : ""}`}></div>
                 </div>
             </div>
         </header>
