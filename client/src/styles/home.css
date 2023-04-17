@@ -71,6 +71,7 @@
 }
 
 .home--services--grid {
+    position: relative;
     max-width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,10 +80,27 @@
 
 
 .home--services--service {
+    position: relative;
     padding: 45px;
     background-color: white;
     border-radius: .5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
+    z-index: 1;
+}
+
+
+.home--services--service::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../../public/images/electricien-nimes-background.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
 }
 
 .home--services--service:nth-child(even) {
@@ -92,7 +110,7 @@
 .home--services--service svg {
     width: 60px;
     height: 60px;
-    fill: var(--main-blue);
+    fill: var(--primary-blue);
     margin-bottom: 25px;
 }
 

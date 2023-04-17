@@ -1,9 +1,12 @@
 :root {
-    --main-blue: #3152f4;
+    --primary-blue: #3152f4;
+    --secondary-blue: #31d0f4;
     --primary-section-background-color: #f4f4f4;
     --secondary-section-background-color: #e3e3e3;
     --default-text-color: #404040;
     --secondary-text-color: #656565;
+    --tertiary-text-color: #f8f8f8;
+    --footer-title-text-color: #a1a1a1;
     --default-btn-text-color: #e8e8e8;
     background-color: var(--primary-section-background-color);
 }
@@ -43,14 +46,14 @@ h2 {
     margin-bottom: 25px;
 }
 
-p {
+p, a, li {
     font-weight: 300;
     font-size: 1.2rem;
 }
 
 .btn-primary {
     padding: 12px 30px;
-    background: var(--main-blue);
+    background: var(--primary-blue);
     color: var(--default-btn-text-color);
     border-radius: 0.75rem;
     font-size: 1.2rem;
