@@ -1,58 +1,72 @@
 :root {
-	--main-blue: #3152f4;
-	--primary-section-background-color: #f4f4f4;
-	--secondary-section-background-color: #e3e3e3;
-	--default-text-color: #404040;
-	--secondary-text-color: #656565;
-	--default-btn-text-color: #e8e8e8;
-	background-color: var(--primary-section-background-color);
+    --main-blue: #3152f4;
+    --primary-section-background-color: #f4f4f4;
+    --secondary-section-background-color: #e3e3e3;
+    --default-text-color: #404040;
+    --secondary-text-color: #656565;
+    --default-btn-text-color: #e8e8e8;
+    background-color: var(--primary-section-background-color);
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Plus Jakarta Sans', sans-serif;
-	color: var(--default-text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--default-text-color);
 }
 
 section .section--inner {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 110px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 110px 20px;
 }
 
 li,
 a {
-	all: unset;
+    all: unset;
 }
 
 a {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 h1 {
-	font-size: 3rem;
-	font-weight: 800;
-	margin-bottom: 25px;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 25px;
 }
 
 h2 {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-bottom: 25px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
 }
 
 p {
-	font-weight: 300;
-	font-size: 1.2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 
 .btn-primary {
-	padding: 12px 30px;
-	background: var(--main-blue);
-	color: var(--default-btn-text-color);
-	border-radius: 0.75rem;
-	font-size: 1.2rem;
-	font-weight: 700;
+    padding: 12px 30px;
+    background: var(--main-blue);
+    color: var(--default-btn-text-color);
+    border-radius: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
+@media (max-width: 700px) {
+    section .section--inner {
+        padding: 70px 20px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+}
+
+

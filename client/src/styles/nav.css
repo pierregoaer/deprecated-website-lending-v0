@@ -1,35 +1,159 @@
 .header--container {
-	background-color: var(--primary-section-background-color);
-	padding: 30px 20px;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
+    background-color: var(--primary-section-background-color);
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
 }
 
 .header--main {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 0 auto;
-	padding: 0 20px;
-	max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1400px;
 }
 
 .header--main img {
-	height: 45px;
+    height: 45px;
 }
 
 .header--main-navigation {
-	display: flex;
-	column-gap: 60px;
+    display: flex;
+    column-gap: 60px;
+    transition: transform 0.7s ease;
 }
 
 .header--main-navigation li {
-	font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
-.header--main-navigation-contact {
-	padding: 10px 25px;
-	background-color: var(--main-blue);
-	border-radius: 0.75rem;
-	font-size: 1.2rem;
-	color: #f4f4f4;
+/*.header--main-navigation-contact {*/
+/*    padding: 10px 25px;*/
+/*    background-color: var(--main-blue);*/
+/*    border-radius: 0.75rem;*/
+/*    font-size: 1.2rem;*/
+/*    color: #f4f4f4;*/
+/*}*/
+
+
+/*--- Mobile Nav ---*/
+.header--mobile-nav-icon-container {
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 30px;
+    top: 41px;
+    z-index: 25;
+}
+
+.header--mobile-nav-icon-container[data-visible='true'] {
+    position: fixed;
+}
+
+.header--mobile-nav-icon-container:hover {
+    cursor: pointer;
+}
+
+.menu-top,
+.menu-middle,
+.menu-bottom {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+    background-color: var(--main-blue);
+}
+
+.menu-top {
+    top: 0px;
+}
+
+.header--mobile-nav-icon-container.active {
+    position: fixed;
+}
+
+.menu-top.active {
+    transform: rotate(135deg);
+    top: 8px;
+}
+
+.menu-middle {
+    top: 8px;
+}
+
+.menu-middle.active {
+    transform: rotate(45deg);
+}
+
+.menu-bottom {
+    top: 16px;
+}
+
+.menu-bottom.active {
+    top: 8px;
+    transform: rotate(225deg);
+}
+
+@media (max-width: 700px) {
+    .header--container {
+        padding: 30px 10px;
+    }
+
+    .header--main {
+        padding: 0 10px;
+    }
+
+    .header--main img {
+        height: 35px;
+    }
+
+    .header--main-navigation-contact {
+        margin-right: 60px;
+    }
+
+    .header--main-navigation {
+        position: fixed;
+        top: 0;
+        /*left: 0;*/
+        width: 250px;
+        height: 100vh;
+        background-color: var(--secondary-section-background-color);
+        flex-direction: column;
+        transform: translateX(100%);
+        right: 0;
+        margin: 0;
+        gap: 45px;
+        padding-left: 40px;
+        justify-content: center;
+        z-index: 15;
+    }
+
+    .header--main-navigation::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-image: url("../../public/images/electricien-nimes-background.jpg");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.1;
+    }
+
+    .header--main-navigation[data-visible='true'] {
+        transform: translateX(0px);
+    }
+
+    .header--mobile-nav-icon-container {
+        display: block;
+
+    }
+
+    .header--main-navigation li {
+        font-size: 1.7rem;
+    }
 }

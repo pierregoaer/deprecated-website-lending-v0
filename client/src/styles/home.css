@@ -35,11 +35,13 @@
 
 .hero--text h1 {
     font-size: 3.5rem;
+    margin-bottom: 40px;
 }
 
 .hero--text p {
     margin-bottom: 30px;
     font-size: 1.3rem;
+    line-height: 40px;
 }
 
 /* --- Services section --- */
@@ -59,13 +61,13 @@
     text-align: center;
 }
 
-.home--services--text{
+.home--services--text {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.home--services--text p{
-    width: 700px;
+.home--services--text p {
+    max-width: 700px;
 }
 
 .home--services--grid {
@@ -79,9 +81,8 @@
 .home--services--service {
     padding: 45px;
     background-color: white;
-    border-radius: .75rem;
+    border-radius: .5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
-
 }
 
 .home--services--service:nth-child(even) {
@@ -89,8 +90,8 @@
 }
 
 .home--services--service svg {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     fill: var(--main-blue);
     margin-bottom: 25px;
 }
@@ -103,4 +104,42 @@
 .home--services--service p {
     font-size: 1.2rem;
     color: var(--secondary-text-color)
+}
+
+@media (max-width: 700px) {
+    .hero--container {
+        height: auto;
+        display: block;
+    }
+
+    .hero--main {
+        flex-direction: column-reverse;
+    }
+
+    .hero--main .hero--image {
+        padding: 0 20px;
+    }
+
+    .hero--main .hero--image img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .home--services--grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .home--services--service {
+        padding: 40px 20px;
+    }
+
+    .home--services--service:nth-child(even) {
+        transform: translateY(0px);
+    }
+
+    .home--services--service p {
+        font-size: 1.1rem;
+    }
 }
