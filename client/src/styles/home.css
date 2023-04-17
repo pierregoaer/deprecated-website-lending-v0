@@ -44,10 +44,11 @@
     line-height: 40px;
 }
 
+/* --- About Us section --- */
+
 /* --- Services section --- */
 .home--services--container {
     height: fit-content;
-    /*background-color: var(--secondary-section-background-color);*/
 }
 
 .home--services--main {
@@ -100,7 +101,7 @@
     background-image: url("../../public/images/electricien-nimes-background.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.15;
+    opacity: 0.1;
 }
 
 .home--services--service:nth-child(even) {

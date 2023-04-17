@@ -26,19 +26,30 @@
 .flex-column {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .column-title {
     color: var(--footer-title-text-color);
 }
 
-/*.column-4 .column-title {*/
-/*    margin-bottom: 30px;*/
-/*}*/
 
 .column-4 a {
     align-self: start;
+}
+
+.column-4 .contact-phone {
+    display: flex;
+    align-items: flex-end;
+}
+
+.column-4 .contact-phone svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.column-4 .contact-phone svg path {
+    stroke: var(--primary-blue);
 }
 
 .footer--copyrights {

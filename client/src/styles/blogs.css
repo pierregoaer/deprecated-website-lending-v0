@@ -1,0 +1,17 @@
+.blogs--text {
+    margin-bottom: 40px;
+}
+
+.blogs--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blog-card--container {
+    border: 1px solid darkgray;
+}
+
+.blog-read-more {
+    background-color: transparent;
+    color: var(--primary-blue);
+}

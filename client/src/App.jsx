@@ -6,6 +6,7 @@ import CTAMain from './components/CTAMain';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Blogs from './pages/Blogs.jsx';
 
 import './styles/styles.css';
 
@@ -17,6 +18,7 @@ function App() {
 				<Route exact path={'/'} element={<Home />} />
 				<Route path={'/services'} element={<Services />} />
 				<Route path={'/contact'} element={<Contact />} />
+				<Route path={'/blog'} element={<Blogs />} />
 			</Routes>
 			<CTAMain />
 			<Footer />
