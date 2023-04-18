@@ -8,6 +8,8 @@
     --tertiary-text-color: #f8f8f8;
     --footer-title-text-color: #a1a1a1;
     --default-btn-text-color: #e8e8e8;
+    --border-radius-main: 0.75rem;
+    --box-shadow-main: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
     background-color: var(--primary-section-background-color);
 }
 

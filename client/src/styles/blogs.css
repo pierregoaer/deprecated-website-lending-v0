@@ -4,14 +4,49 @@
 
 .blogs--grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 
 .blog-card--container {
-    border: 1px solid darkgray;
+    width: 100%;
+    box-shadow: var(--box-shadow-main);
+    border-radius: var(--border-radius-main);
+    overflow: hidden;
 }
 
-.blog-read-more {
+.blog-card-thumbnail {
+    object-fit: cover;
+}
+
+.blog-card-text-container {
+    padding: 10px 20px 30px 20px;
+}
+
+.blog-card-date {
+    color: var(--footer-title-text-color);
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.blog-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blog-card-description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.blog-card-read-more {
     background-color: transparent;
     color: var(--primary-blue);
+    font-size: 1.3rem;
+    font-weight: 700;
 }
