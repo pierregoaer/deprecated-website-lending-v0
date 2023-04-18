@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1282ab0a-40b8-4f03-b6dd-f8512e0ac12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/src/styles/blog-article.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/BlogCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/BlogCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/BlogArticle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/BlogArticle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/blogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
