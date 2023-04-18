@@ -76,6 +76,8 @@
     max-width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    /*place-items: center;*/
     grid-gap: 30px;
 }
 
@@ -105,7 +107,7 @@
 }
 
 .home--services--service:nth-child(even) {
-    transform: translateY(20px);
+    transform: translateY(150px);
 }
 
 .home--services--service svg {
@@ -113,6 +115,11 @@
     height: 60px;
     fill: var(--primary-blue);
     margin-bottom: 25px;
+}
+
+.home--services--service:nth-child(2) svg {
+    fill: white;
+    stroke: var(--primary-blue);
 }
 
 .home--services--service h4 {

@@ -96,7 +96,13 @@
     transform: rotate(225deg);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
+    .header--main-navigation {
+        column-gap: 30px;
+    }
+}
+
+@media (max-width: 800px) {
     .header--container {
         padding: 30px 10px;
     }

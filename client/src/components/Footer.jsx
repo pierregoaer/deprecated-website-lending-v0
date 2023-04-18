@@ -12,22 +12,28 @@ export default function Footer() {
                         <Link to={'/'} className="header--logo-container">
                             <img className="header--logo" src="/logos/logo_main.png" alt=""/>
                         </Link>
-                        <p>sit cillum commodo dolore minim labore labore veniam fugiat voluptate dolor labore cillum
-                            deserunt aute</p>
+                        <p>Votre expert en électricité dans la région de Nîmes.</p>
                     </div>
-                    <div className="column-2 column flex-column">
+                    <div className="column flex-column">
+                        <p className="column-title">Services</p>
+                        <Link to={'/'}>Installation électrique</Link>
+                        <Link to={'/'}>Rénovation électrique</Link>
+                        <Link to={'/'}>Dépannage électrique</Link>
+                        <Link to={'/'}>Éclairage</Link>
+                        <Link to={'/'}>Domotique et objets connectés</Link>
+                    </div>
+                    <div className="column flex-column">
+                        <p className="column-title">Réalisations</p>
+                        <Link to={'/'}>Projets résidentiels</Link>
+                        <Link to={'/'}>Projets commerciaux</Link>
+                        <Link to={'/'}>Projets industriels</Link>
+                    </div>
+                    <div className="column flex-column">
                         <p className="column-title">Menu</p>
                         <Link to={'/'}>A propos</Link>
-                        <Link to={'/'}>Blog</Link>
+                        <Link to={'/blog'}>Blog</Link>
                     </div>
-                    <div className="column-3 column flex-column">
-                        <p className="column-title">Services</p>
-                        <Link to={'/'}>Electricité</Link>
-                        <Link to={'/'}>Climatisation</Link>
-                        <Link to={'/'}>Chauffage</Link>
-                        <Link to={'/'}>Accompagnement</Link>
-                    </div>
-                    <div className="column-4 column flex-column">
+                    <div className="column-5 column flex-column">
                         <p className="column-title">Vous cherchez un expert ?</p>
                         <Link to={'/contact'} className="btn-primary">Contactez-Nous</Link>
                         <a href="tel:" className="contact-phone">

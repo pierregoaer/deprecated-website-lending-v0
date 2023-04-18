@@ -5,12 +5,12 @@ import json
 from get_data import blog_data
 
 app = Flask(__name__)
-# cors = CORS(app)
-# app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/get-blogs')
-# @cross_origin()
+@cross_origin()
 def get_blogs():
     print("requesting blogs")
     return jsonify(blog_data), 200

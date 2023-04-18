@@ -6,6 +6,9 @@ import HomeAboutUs from '../components/HomeAboutUs';
 import '../styles/home.css';
 
 export default function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>
