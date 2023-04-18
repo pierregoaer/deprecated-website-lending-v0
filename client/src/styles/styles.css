@@ -9,7 +9,9 @@
     --tertiary-text-color: #f8f8f8;
     --footer-title-text-color: #a1a1a1;
     --default-btn-text-color: #e8e8e8;
+    --light-grey-border-color: #d2d2d2;
     --border-radius-main: 0.75rem;
+    --border-radius-secondary: 0.5rem;
     --box-shadow-main: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
     background-color: var(--primary-section-background-color);
 }
@@ -51,16 +53,20 @@ h2 {
 
 p, a, li {
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
 }
 
 .btn-primary {
     padding: 12px 30px;
     background: var(--primary-blue);
     color: var(--default-btn-text-color);
-    border-radius: 0.75rem;
+    border-radius: var(--border-radius-secondary);
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+button {
+    cursor: pointer;
 }
 
 @media (max-width: 700px) {

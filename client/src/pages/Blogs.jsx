@@ -28,7 +28,7 @@ export default function Blogs({blogsData, blogsFetched}) {
                             cupidatat ex commodo sunt ipsum dolore reprehenderit mollit quis</p>
                     </div>
                     <div className="blogs--grid">
-                        {blogElements}
+                        {blogsFetched && blogElements}
                     </div>
 
                 </div>

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1282ab0a-40b8-4f03-b6dd-f8512e0ac12d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/styles/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>

@@ -36,7 +36,7 @@ export default function Footer() {
                     <div className="column-5 column flex-column">
                         <p className="column-title">Vous cherchez un expert ?</p>
                         <Link to={'/contact'} className="btn-primary">Contactez-Nous</Link>
-                        <a href="tel:" className="contact-phone">
+                        <a href="tel:0466644607" className="contact-phone">
                             <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
                                  fill="none">
                                 <path id="Vector"
@@ -44,7 +44,7 @@ export default function Footer() {
                                       stroke="#000000" strokeWidth="2" strokeLinecap="round"
                                       strokeLinejoin="round"/>
                             </svg>
-                            00 00 00 00 00</a>
+                            04 66 64 46 07</a>
                     </div>
                 </div>
                 <div className="footer--copyrights">
