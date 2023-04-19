@@ -3,15 +3,15 @@ import {Link} from 'react-router-dom';
 
 export default function HomeServices() {
     return (
-        <section className="home--services--container">
-            <div className="section--inner home--services--main">
-                <div className="home--services--text">
+        <section className="home-services-container">
+            <div className="section-inner home-services-main">
+                <div className="home-services-text">
                     <h2>Nos Services</h2>
                     <p>Intervention chez professionnels et particuliers dans la région de Nîmes. Notre équipe d'experts
                         en électricité est là pour répondre au mieux aux besoins de nos clients.</p>
                 </div>
-                <div className="home--services--grid">
-                    <div className="home--services--service">
+                <div className="home-services-grid">
+                    <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px"
                              viewBox="0 0 1024 1024">
                             <path
@@ -20,34 +20,31 @@ export default function HomeServices() {
                                 d="M727.746 234.526l-.358.247c.12-.078.239-.16.358-.247zm-304.56 198.992l53.506 34.806c9.143 5.947 12.02 18.016 6.545 27.449L322.853 772.067l277.96-181.589-53.507-34.807c-9.143-5.947-12.02-18.016-6.545-27.449l160.378-276.284-277.953 181.579zm-48.67 17.204c-12.402-8.068-12.42-26.221-.033-34.313L704.13 201.06c29.158-20.549 66.411 12.954 48.276 44.151l-166.448 286.74 63.524 41.323c12.402 8.068 12.42 26.221.034 34.313L319.883 822.934c-29.153 20.564-66.398-12.925-48.29-44.148l166.448-286.74-63.524-41.323z"/>
                         </svg>
                         <h4>Installation électrique </h4>
-                        <p>quis Lorem et ipsum excepteur nostrud cillum ad proident non ad enim id aliquip dolor eiusmod
-                            qui pariatur nulla culpa</p>
+                        <p>Nous prenons en charge l'installation électrique de votre habitation ou de vos locaux professionnels, qu'il s'agisse d'une construction neuve, d'une rénovation ou d'une extension. Nos électriciens à Nîmes réalisent des installations conformes à la norme NF C 15-100, en tenant compte de vos besoins et de vos contraintes.</p>
                     </div>
-                    <div className="home--services--service">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24"
-                             fill="none">
+                    <div className="home-services-service">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24">
                             <path
                                 d="M18.4721 16.7023C17.3398 18.2608 15.6831 19.3584 13.8064 19.7934C11.9297 20.2284 9.95909 19.9716 8.25656 19.0701C6.55404 18.1687 5.23397 16.6832 4.53889 14.8865C3.84381 13.0898 3.82039 11.1027 4.47295 9.29011C5.12551 7.47756 6.41021 5.96135 8.09103 5.02005C9.77184 4.07875 11.7359 3.77558 13.6223 4.16623C15.5087 4.55689 17.1908 5.61514 18.3596 7.14656C19.5283 8.67797 20.1052 10.5797 19.9842 12.5023M19.9842 12.5023L21.4842 11.0023M19.9842 12.5023L18.4842 11.0023"
-                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M12 8V12L15 15" strokeWidth="2" strokeLinecap="round"
+                                 strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M12 8V12L15 15" strokeWidth="1" strokeLinecap="round"
                                   strokeLinejoin="round"/>
                         </svg>
                         <h4>Rénovation électrique</h4>
                         <p>quis Lorem et ipsum excepteur nostrud cillum ad proident non ad enim id aliquip dolor eiusmod
                             qui pariatur nulla culpa</p>
                     </div>
-                    <div className="home--services--service">
+                    <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 48 48">
                             <path
-                                d="M24,46A22,22,0,1,0,2,24,21.9,21.9,0,0,0,24,46ZM24,6A18,18,0,1,1,6,24,18.1,18.1,0,0,1,24,6Z" stroke="#3152f4" fill="f4f4f4"/>
-                            <path d="M24,28a2,2,0,0,0,2-2V14a2,2,0,0,0-4,0V26A2,2,0,0,0,24,28Z"/>
+                                d="M24,46A22,22,0,1,0,2,24,21.9,21.9,0,0,0,24,46ZM24,6A18,18,0,1,1,6,24,18.1,18.1,0,0,1,24,6Z" fill="f4f4f4"/>
+                            <path d="M24,28a2,2,0,0,0,2-2V14a2,2,0,0,0-4,0V26A2,2,0,0,0,24,28Z" />
                             <circle cx="24" cy="34" r="2" />
                         </svg>
                         <h4>Dépannage électrique</h4>
-                        <p>quis Lorem et ipsum excepteur nostrud cillum ad proident non ad enim id aliquip dolor eiusmod
-                            qui pariatur nulla culpa</p>
+                        <p>Notre équipe d'électriciens à Nîmes intervient rapidement pour résoudre vos problèmes électriques. Qu'il s'agisse d'une panne de courant, d'un disjoncteur défectueux ou d'un équipement endommagé, nous résoudrons votre problème. Nous assurons également la maintenance préventive de vos installations électriques pour prévenir les pannes et garantir leur bon fonctionnement.</p>
                     </div>
-                    <div className="home--services--service">
+                    <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                              height="800px" width="800px" version="1.1" id="_x32_" viewBox="0 0 512 512"
                              xmlSpace="preserve">
@@ -58,7 +55,7 @@ export default function HomeServices() {
                         <p>quis Lorem et ipsum excepteur nostrud cillum ad proident non ad enim id aliquip dolor eiusmod
                             qui pariatur nulla culpa</p>
                     </div>
-                    <div className="home--services--service">
+                    <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 16 16">
                             <path
                                 d="m 8 1.992188 c -2.617188 0 -5.238281 0.933593 -7.195312 2.808593 l -0.496094 0.480469 c -0.3984378 0.378906 -0.410156 1.011719 -0.03125 1.410156 c 0.382812 0.398438 1.015625 0.410156 1.414062 0.03125 l 0.5 -0.476562 c 3.085938 -2.957032 8.53125 -2.957032 11.617188 0 l 0.5 0.476562 c 0.398437 0.378906 1.03125 0.367188 1.414062 -0.03125 c 0.378906 -0.398437 0.367188 -1.03125 -0.03125 -1.410156 l -0.496094 -0.484375 c -1.957031 -1.871094 -4.578124 -2.804687 -7.195312 -2.804687 z m -0.03125 4.007812 c -1.570312 0.011719 -3.128906 0.628906 -4.207031 1.8125 l -0.5 0.550781 c -0.179688 0.195313 -0.277344 0.453125 -0.261719 0.71875 c 0.011719 0.265625 0.128906 0.515625 0.328125 0.695313 c 0.195313 0.179687 0.453125 0.273437 0.71875 0.257812 c 0.265625 -0.011718 0.515625 -0.128906 0.695313 -0.328125 l 0.496093 -0.546875 c 1.277344 -1.402344 4.160157 -1.496094 5.523438 0.003906 l 0.5 0.542969 c 0.175781 0.199219 0.425781 0.316407 0.691406 0.328125 c 0.265625 0.015625 0.523437 -0.078125 0.722656 -0.257812 c 0.195313 -0.179688 0.3125 -0.429688 0.324219 -0.695313 c 0.011719 -0.261719 -0.082031 -0.523437 -0.261719 -0.71875 l -0.5 -0.546875 c -1.121093 -1.234375 -2.703125 -1.828125 -4.269531 -1.816406 z m 0.03125 4 c -0.511719 0 -1.023438 0.195312 -1.414062 0.585938 c -0.78125 0.78125 -0.78125 2.046874 0 2.828124 s 2.046874 0.78125 2.828124 0 s 0.78125 -2.046874 0 -2.828124 c -0.390624 -0.390626 -0.902343 -0.585938 -1.414062 -0.585938 z m 0 0"/>

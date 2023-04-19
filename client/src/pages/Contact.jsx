@@ -46,26 +46,25 @@ export default function Contact() {
 
     return (
         <>
-            <section className="contact--container">
-                <div className="section--inner contact--main">
-                    <div className="contact--text">
+            <section className="contact-container">
+                <div className="section-inner contact-main">
+                    <div className="contact-text">
                         <h1>Contact</h1>
-                        <div className="contact--text-section">
+                        <div className="contact-text-section">
                             <p>Horaires</p>
                             <p>Du lundi au vendredi,<br/>de 8h à 17h</p>
                         </div>
-                        <div className="contact--text-section">
+                        <div className="contact-text-section">
                             <p>Adresse</p>
                             <p>14 Bd Victor Hugo,<br/>30000 Nîmes, France</p>
                         </div>
-                        <div className="contact--text-section">
-                            <p>Téléphone</p>
-                            <a href="tel:0466644607" className="contact-phone">04 66 64 46 07</a>
-                        </div>
-                        <div className="contact--text-section"></div>
+                        {/*<div className="contact--text-section">*/}
+                        {/*    <p>Téléphone</p>*/}
+                        {/*    <a href="tel:0000000000" className="contact-phone">00 00 00 00 00</a>*/}
+                        {/*</div>*/}
                     </div>
-                    <form className="contact--form">
-                        <div className="contact--form-field">
+                    <form className="contact-form">
+                        <div className="contact-form-field">
 
                             <label htmlFor="name">Nom*</label>
                             <input
@@ -76,7 +75,7 @@ export default function Contact() {
                                 value={formData.name}
                             />
                         </div>
-                        <div className="contact--form-field">
+                        <div className="contact-form-field">
                             <label htmlFor="email">Email*</label>
                             <input
                                 type="text"
@@ -86,7 +85,7 @@ export default function Contact() {
                                 value={formData.email}
                             />
                         </div>
-                        <div className="contact--form-field">
+                        <div className="contact-form-field">
                             <label htmlFor="phone">Téléphone</label>
                             <input
                                 type="text"
@@ -96,7 +95,7 @@ export default function Contact() {
                                 value={formData.phone}
                             />
                         </div>
-                        <div className="contact--form-field">
+                        <div className="contact-form-field">
                             <label htmlFor="message">Votre message*</label>
                             <textarea
                                 placeholder="Comment peut-on vous aider ?"
@@ -105,7 +104,7 @@ export default function Contact() {
                                 value={formData.message}
                             />
                         </div>
-                        <p className="contact--form-disclaimer">Les champs marqués d'un * sont requis.</p>
+                        <p className="contact-form-disclaimer">Les champs marqués d'un * sont requis.</p>
                         <button type="submit" className="btn-primary" onClick={handleSubmit}>Envoyer</button>
                     </form>
 

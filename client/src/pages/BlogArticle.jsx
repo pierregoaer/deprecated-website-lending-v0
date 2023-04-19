@@ -16,8 +16,8 @@ export default function Blogs({blogsData, blogsFetched}) {
 
         return (
             <>
-                <article className="blog-article--container">
-                    <div className="section--inner blog-article--main">
+                <article className="blog-article-container">
+                    <div className="section-inner blog-article--main">
                         <div className="blog-article-header">
                             <h1>{curBlog.title}</h1>
                             <p className="article-date">{`${curBlog.date} - ${curBlog.readingTime} minutes de lecture`}</p>

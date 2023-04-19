@@ -5,9 +5,9 @@ import '../styles/cta-main.css';
 
 export default function CTAMain() {
     return (
-        <section className="cta-main--container">
-            <div className="section--inner cta-main--main">
-                <div className="cta-main--text">
+        <section className="cta-main-container">
+            <div className="section-inner cta-main-main">
+                <div className="cta-main-text">
                     <h3>Vous cherchez un expert en électricité à Nîmes?</h3>
                     <p>id eu duis laboris ex eiusmod consequat in proident sunt elit culpa Lorem aliquip mollit id cupidatat ex commodo sunt ipsum dolore reprehenderit mollit quis</p>
                     <Link to={'/contact'} className="btn-primary">Contactez-Nous</Link>

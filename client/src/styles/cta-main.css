@@ -1,13 +1,13 @@
-.cta-main--container{
-    background: linear-gradient(-45deg, var(--primary-blue), var(--secondary-blue));
+.cta-main-container{
+    background: linear-gradient(-45deg, var(--primary-accent-color), var(--secondary-accent-color));
 
 }
 
-.cta-main--main{
+.cta-main-main{
     padding: 70px 20px !important;
 }
 
-.cta-main--text {
+.cta-main-text {
     max-width: 700px;
     margin: 0 auto;
     display: flex;
@@ -16,21 +16,21 @@
     text-align: center;
 }
 
-.cta-main--text h3 {
-    color: var(--tertiary-text-color);
+.cta-main-text h3 {
+    color: var(--white);
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 15px;
 }
 
-.cta-main--text p {
-    color: var(--tertiary-text-color);
+.cta-main-text p {
+    color: var(--white);
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
 
-.cta-main--text a {
-    color: var(--default-text-color);
-    background-color: var(--primary-section-background-color);
+.cta-main-text a {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
 }
 

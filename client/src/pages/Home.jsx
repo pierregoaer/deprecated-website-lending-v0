@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import Hero from '../components/Hero';
 import HomeServices from '../components/HomeServices';
-import HomeAboutUs from '../components/HomeAboutUs';
+import HomeRealizations from '../components/HomeRealizations.jsx';
+import HomeFAQ from '../components/HomeFAQ';
 
 import '../styles/home.css';
 
@@ -13,8 +14,8 @@ export default function Home() {
     return (
         <>
             <Hero/>
-            {/*<HomeAboutUs />*/}
             <HomeServices/>
+            {/*<HomeRealizations />*/}
         </>
     );
 }

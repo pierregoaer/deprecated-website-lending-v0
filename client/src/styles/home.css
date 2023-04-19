@@ -1,11 +1,13 @@
-/* --- Hero section --- */
-.hero--container {
-    height: calc(100vh - 109px);
+/* -- Hero section -- */
+.hero-container {
+    z-index: 0;
+    /*height: calc(100vh - 109px);*/
     display: flex;
     align-items: center;
+    position: relative;
 }
 
-.hero--container::before {
+.hero-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -19,59 +21,76 @@
     opacity: 0.15;
 }
 
-.hero--main {
+.hero-main {
     display: flex;
     align-items: center;
 }
 
-.hero--main .hero--text {
+.hero-main .hero-text {
     flex-grow: 2;
     padding: 30px;
 }
 
-.hero--main .hero--image {
+.hero-main .hero-image {
     flex-grow: 1;
 }
 
-.hero--text h1 {
+.hero-text h1 {
     font-size: 3.5rem;
     margin-bottom: 40px;
 }
 
-.hero--text p {
-    margin-bottom: 30px;
-    font-size: 1.3rem;
-    line-height: 40px;
+.hero-text p {
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+
 }
 
-/* --- About Us section --- */
+.hero-text-highlight {
+    position: relative;
+}
 
-/* --- Services section --- */
-.home--services--container {
+.hero-text-highlight::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 40px;
+    width: 110%;
+    z-index: -1;
+    background-color: var(--primary-accent-color);
+    opacity: .7;
+}
+
+/* -- About Us section -- */
+
+/* -- Services section -- */
+.home-services-container {
     height: fit-content;
 }
 
-.home--services--main {
+.home-services-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.home--services--main h2 {
+.home-services-main h2 {
     text-align: center;
 }
 
-.home--services--text {
+.home-services-text {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.home--services--text p {
+.home-services-text p {
     max-width: 700px;
 }
 
-.home--services--grid {
+.home-services-grid {
     position: relative;
     max-width: 80%;
     display: grid;
@@ -82,17 +101,18 @@
 }
 
 
-.home--services--service {
+.home-services-service {
     position: relative;
     padding: 45px;
-    background-color: white;
+    /*background-color: white;*/
     border-radius: .5rem;
+    background-color: var(--secondary-background-color);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
     z-index: 1;
 }
 
 
-.home--services--service::before {
+.home-services-service::before {
     content: "";
     position: absolute;
     top: 0;
@@ -100,72 +120,72 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-    background-image: url("../../public/images/electricien-nimes-background.jpg");
+    background-image: url("../../public/images/electricien-nimes-background.png");
     background-size: cover;
     background-position: center;
-    opacity: 0.1;
+    opacity: 0.15;
 }
 
-.home--services--service:nth-child(even) {
+.home-services-service:nth-child(even) {
     transform: translateY(150px);
 }
 
-.home--services--service svg {
+.home-services-service svg {
     width: 60px;
     height: 60px;
-    fill: var(--primary-blue);
+    fill: var(--primary-accent-color);
     margin-bottom: 25px;
 }
 
-.home--services--service:nth-child(2) svg {
+.home-services-service:nth-child(2) svg {
     fill: white;
-    stroke: var(--primary-blue);
+    stroke: var(--primary-accent-color);
 }
 
-.home--services--service h4 {
+.home-services-service h4 {
     font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
-.home--services--service p {
+.home-services-service p {
     font-size: 1.2rem;
     color: var(--secondary-text-color)
 }
 
 @media (max-width: 700px) {
-    .hero--container {
+    .hero-container {
         height: auto;
         display: block;
     }
 
-    .hero--main {
+    .hero-main {
         flex-direction: column-reverse;
     }
 
-    .hero--main .hero--image {
+    .hero-main .hero-image {
         padding: 0 20px;
     }
 
-    .hero--main .hero--image img {
+    .hero-main .hero-image img {
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
     }
 
-    .home--services--grid {
+    .home-services-grid {
         grid-template-columns: 1fr;
         max-width: 100%;
     }
 
-    .home--services--service {
+    .home-services-service {
         padding: 40px 20px;
     }
 
-    .home--services--service:nth-child(even) {
+    .home-services-service:nth-child(even) {
         transform: translateY(0px);
     }
 
-    .home--services--service p {
+    .home-services-service p {
         font-size: 1.1rem;
     }
 }

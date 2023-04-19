@@ -31,7 +31,6 @@ def get_blogs():
 
 
 @app.route('/contact', methods=['POST'])
-@cross_origin()
 def contact():
     # get contact form data
     form_data = request.get_json()
@@ -61,7 +60,7 @@ def contact():
         subject='Electricien Nîmes - Nouveau message!',
         html=html,
         sender=('Contact - Electricien Nîmes', app.config['MAIL_USERNAME']),
-        recipients=[os.environ["EMAIL_RECIPIENT_1"], os.environ["EMAIL_RECIPIENT_2"]]
+        recipients=[os.environ["EMAIL_RECIPIENT_1"]]
     )
     mail.send(msg)
     return "success", 200

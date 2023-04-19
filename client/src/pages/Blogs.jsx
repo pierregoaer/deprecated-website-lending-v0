@@ -19,15 +19,15 @@ export default function Blogs({blogsData, blogsFetched}) {
 
     return (
         <>
-            <section className="blogs--container">
-                <div className="section--inner blogs--main">
-                    <div className="blogs--text">
+            <section className="blogs-container">
+                <div className="section-inner blogs--main">
+                    <div className="blogs-text">
                         <h1>Blog</h1>
                         <p>id eu duis laboris ex eiusmod consequat in proident sunt elit culpa Lorem aliquip mollit
                             id
                             cupidatat ex commodo sunt ipsum dolore reprehenderit mollit quis</p>
                     </div>
-                    <div className="blogs--grid">
+                    <div className="blogs-grid">
                         {blogsFetched && blogElements}
                     </div>
 

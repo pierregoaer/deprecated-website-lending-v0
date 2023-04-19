@@ -1,19 +1,25 @@
 :root {
-    --primary-blue: #3152f4;
-    --secondary-blue: #31d0f4;
-    --tertiary-blue: #dbe0f5;
-    --primary-section-background-color: #f4f4f4;
-    --secondary-section-background-color: #e3e3e3;
-    --default-text-color: #404040;
+    --primary-accent-color: #d20d0d;
+    --secondary-accent-color: #d55050;
+    --tertiary-accent-color: #d36e6e;
+    --tertiary-accent-color-opacity: rgba(211, 110, 110, 0.8);
+
+    --primary-background-color: #fff;
+    --secondary-background-color: #f8f8f8;
+
+    --primary-text-color: #404040;
     --secondary-text-color: #656565;
-    --tertiary-text-color: #f8f8f8;
-    --footer-title-text-color: #a1a1a1;
-    --default-btn-text-color: #e8e8e8;
-    --light-grey-border-color: #d2d2d2;
-    --border-radius-main: 0.75rem;
+    --tertiary-text-color: #a1a1a1;
+    --white: white;
+    --black: black;
+
+    --light-grey: #d2d2d2;
+    --dark-grey: var(--primary-text-color);
+
+    --border-radius-primary: 0.75rem;
     --border-radius-secondary: 0.5rem;
-    --box-shadow-main: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px;
-    background-color: var(--primary-section-background-color);
+    --box-shadow-main: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.04) 0px 2px 4px -1px, rgba(0, 0, 0, 0.08) 0px -5px 20px 2px;
+    background-color: var(--primary-background-color);
 }
 
 * {
@@ -21,10 +27,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    color: var(--default-text-color);
+    color: var(--primary-text-color);
 }
 
-section .section--inner {
+section .section-inner {
     max-width: 1200px;
     margin: 0 auto;
     padding: 110px 20px;
@@ -58,8 +64,8 @@ p, a, li {
 
 .btn-primary {
     padding: 12px 30px;
-    background: var(--primary-blue);
-    color: var(--default-btn-text-color);
+    background: var(--primary-accent-color);
+    color: var(--white);
     border-radius: var(--border-radius-secondary);
     font-size: 1.2rem;
     font-weight: 700;
@@ -70,7 +76,7 @@ button {
 }
 
 @media (max-width: 700px) {
-    section .section--inner {
+    section .section-inner {
         padding: 70px 20px;
     }
 

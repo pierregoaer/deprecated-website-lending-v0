@@ -10,12 +10,12 @@ article {
 
 .blog-article-header h1 {
     font-size: 2.5rem;
-    color: var(--primary-blue);
+    color: var(--primary-accent-color);
     margin-bottom: 10px;
 }
 
 .blog-article-header .article-date {
-    color: var(--footer-title-text-color);
+    color: var(--tertiary-text-color);
     font-size: 1rem;
     font-weight: 300;
     font-style: italic;
@@ -31,7 +31,7 @@ article {
 
 .blog-article-body h2 {
     font-size: 1.8rem;
-    color: var(--primary-blue);
+    color: var(--primary-accent-color);
     margin: 40px 0 20px 0;
 }
 
@@ -47,7 +47,7 @@ article {
 }
 
 .blog-article-body a {
-    color: var(--footer-title-text-color);
+    color: var(--tertiary-text-color);
 }
 
 .blog-article-body li {

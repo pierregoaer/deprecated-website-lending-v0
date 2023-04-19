@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export default function BlogCard({blogData}) {
     return (
-        <div className="blog-card--container">
+        <div className="blog-card-container">
             <div className="blog-card">
                 <div className="blog-card-thumbnail-container">
                     <img className="blog-card-thumbnail" src={blogData.heroImageUrl} alt=""/>
