@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 1000px) {
-    .footer--nav {
+    .footer-nav {
         flex-direction: column;
         row-gap: 60px;
         align-items: center;
