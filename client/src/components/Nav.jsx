@@ -21,9 +21,9 @@ export default function Nav() {
                         {/*<p className="nav--main-navigation-title">Services</p>*/}
                         <Link to={'/services'} onClick={handleDisplayMobileNav} className="nav-main-navigation-title">Services</Link>
                         <ul className="nav-main-navigation-dropdown-list">
-                            <li><Link to={'/installation-electrique'} onClick={handleDisplayMobileNav}>Installation électrique</Link></li>
-                            <li><Link to={'/renovation-electrique'} onClick={handleDisplayMobileNav}>Rénovation électrique</Link></li>
-                            <li><Link to={'/depannage-electrique'} onClick={handleDisplayMobileNav}>Dépannage électrique</Link></li>
+                            <li><Link to={'/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
+                            <li><Link to={'/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation et mise aux normes</Link></li>
+                            <li><Link to={'/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et maintenance</Link></li>
                             <li><Link to={'/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
                             <li><Link to={'/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique et objets connectés</Link></li>
                         </ul>

@@ -64,7 +64,10 @@
 
     .nav-main-navigation-dropdown-list li:hover {
         background-color: var(--primary-accent-color);
-        color: var(--white);
+    }
+
+    .nav-main-navigation-dropdown-list li:hover a{
+        color: var(--white) !important;
     }
 }
 

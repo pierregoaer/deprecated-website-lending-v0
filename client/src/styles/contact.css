@@ -50,7 +50,7 @@ form textarea {
     all: unset;
     padding: 10px;
     border-radius: var(--border-radius-secondary);
-    border: 1px solid var(--light-grey);
+    border: 1px solid var(--medium-grey);
 }
 
 form textarea {

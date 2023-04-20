@@ -5,31 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1282ab0a-40b8-4f03-b6dd-f8512e0ac12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/public/images/electricien-nimes-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/components/HomeFAQ.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/public/logos/logo_favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/public/logos/logo_favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/public/logos/logo_main.png" beforeDir="false" afterPath="$PROJECT_DIR$/../client/public/logos/logo_main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/BlogCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/BlogCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/public/images/user-photo-default.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/FAQQuestion.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/HomeAboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/TestimonialCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/components/Testimonials.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/AboutUs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/styles/about-us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/styles/testimonials.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/CTAMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/CTAMain.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeAboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeRealizations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeFAQ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeFAQ.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/BlogArticle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/BlogArticle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/blog-article.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/blog-article.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/blogs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/cta-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/cta-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/styles/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +83,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="APPCONFIGSECRETKEY" value="GRx9PUnJxqYR8hPwGCQ4" />
         <env name="CLIENT_ID" value="118262084646951088661" />
         <env name="CORS_ORIGIN_DEV" value="http://localhost:5173" />
@@ -98,7 +94,6 @@
         <env name="EMAIL_SENDER" value="pierregdev@gmail.com" />
         <env name="PRIVATE_KEY" value="MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwg4Mhc/Rxb91Y" />
         <env name="PRIVATE_KEY_ID" value="3d44efacfb4ab7e354ca15707a1a30563d064121" />
-        <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -139,6 +134,7 @@
       <workItem from="1681823948530" duration="11463000" />
       <workItem from="1681900456557" duration="42000" />
       <workItem from="1681900555775" duration="6757000" />
+      <workItem from="1681995556128" duration="620000" />
     </task>
     <servers />
   </component>

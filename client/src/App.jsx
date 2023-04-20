@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import BlogArticle from './pages/BlogArticle';
+import AboutUs from "./pages/AboutUs";
 
 import './styles/styles.css';
 
@@ -34,6 +35,7 @@ function App() {
                 <Route exact path={'/'} element={<Home/>}/>
                 <Route path={'/services'} element={<Services/>}/>
                 <Route path={'/contact'} element={<Contact/>}/>
+                <Route path={'/a-propos'} element={<AboutUs/>}/>
                 <Route exact path={'/blog'} element={<Blogs blogsData={blogsData} blogsFetched={blogsFetched}/>}/>
                 <Route path={'/blog/:blogUrl'} element={<BlogArticle blogsData={blogsData} blogsFetched={blogsFetched}/>}/>
             </Routes>
