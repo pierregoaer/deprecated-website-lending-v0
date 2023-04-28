@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 export default function HomeServices() {
     return (
         <section className="home-faq-container">
-            <div className="section-inner home-faq-main">
+            <div className="section-inner secondary-section-padding home-faq-main">
                 <div className="home-faq-text">
                     <h2>Les questions fréquentes sur l'électricité</h2>
                     <p>Vous avez d'autres questions ?</p>

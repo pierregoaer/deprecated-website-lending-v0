@@ -1,3 +1,8 @@
+.blogs-main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .blogs-text {
     max-width: 800px;
     margin: 0 auto 30px auto;
@@ -12,7 +17,7 @@
 .blogs-grid {
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
     grid-auto-rows: 1fr;
 }
@@ -39,6 +44,13 @@
 .blog-card-container:nth-child(1) .blog-card {
     flex-direction: row;
     height: 100%;
+}
+.blog-card-container:nth-child(1) .blog-card .blog-card-thumbnail-container{
+    flex: 1 1 0;
+}
+.blog-card-container:nth-child(1) .blog-card .blog-card-text-container{
+    flex: 1 1 0;
+    justify-content: space-around;
 }
 
 .blog-card-thumbnail {

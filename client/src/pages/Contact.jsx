@@ -57,29 +57,42 @@ export default function Contact() {
                 <meta property="og:url" content="https://eletricien-nimes.com/contact"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title" content="Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit"/>
-                <meta property="og:description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+                <meta property="og:description"
+                      content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
                 <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
             </Helmet>
             <section className="contact-container">
-                <div className="section-inner contact-main">
+                <div className="section-inner contact-main hero-section-padding">
                     <div className="contact-text">
-                        <h1>Contact</h1>
                         <div className="contact-text-section">
-                            <p>Horaires</p>
-                            <p>Du lundi au vendredi,<br/>de 8h à 17h</p>
+                            <h3>Demandez un devis personnalisé</h3>
+                            <p>Vous envisagez un projet électrique à Nîmes ? Que ce soit pour une installation, une
+                                rénovation, un dépannage ou un conseil en éclairage ou domotique, notre équipe
+                                d'électriciens qualifiés est à votre service. Pour obtenir un devis personnalisé et
+                                adapté à vos besoins, veuillez remplir le formulaire ci-dessous en détaillant votre
+                                projet. Nous vous répondrons dans les plus brefs délais avec une proposition adaptée à
+                                vos attentes.</p>
                         </div>
                         <div className="contact-text-section">
-                            <p>Adresse</p>
-                            <p>14 Bd Victor Hugo,<br/>30000 Nîmes, France</p>
+                            <h3>Posez vos questions à notre équipe</h3>
+                            <p>Vous avez des questions concernant nos services d'électricité à Nîmes ou vous souhaitez
+                                en savoir plus sur nos compétences et notre engagement envers la qualité et la sécurité
+                                ? Notre équipe se tient à votre disposition pour répondre à toutes vos interrogations.
+                                N'hésitez pas à nous contacter via le formulaire de contact ci-dessous. Nous nous ferons
+                                un plaisir de vous renseigner et de vous apporter les informations nécessaires.</p>
                         </div>
-                        {/*<div className="contact--text-section">*/}
-                        {/*    <p>Téléphone</p>*/}
-                        {/*    <a href="tel:0000000000" className="contact-phone">00 00 00 00 00</a>*/}
-                        {/*</div>*/}
+                        <div className="contact-text-section">
+                            <h3>Demandez un dépannage électrique</h3>
+                            <p>En cas de panne électrique ou d'urgence, notre équipe d'électriciens à Nîmes est prête à
+                                intervenir rapidement pour diagnostiquer et réparer les problèmes électriques. Si vous
+                                avez besoin d'un dépannage, veuillez nous contacter en précisant la nature de l'urgence
+                                et vos coordonnées. Nous nous engageons à intervenir dans les meilleurs délais pour
+                                assurer votre sécurité et votre confort.</p>
+                        </div>
                     </div>
                     <form className="contact-form">
+                        <h1>Contact</h1>
                         <div className="contact-form-field">
-
                             <label htmlFor="name">Nom*</label>
                             <input
                                 type="text"

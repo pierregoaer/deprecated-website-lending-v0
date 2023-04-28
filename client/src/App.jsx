@@ -5,12 +5,18 @@ import Footer from './components/Footer';
 import CTAMain from './components/CTAMain';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Installation from "./pages/Installation.jsx";
+import Renovation from "./pages/Renovation.jsx";
+import Maintenance from "./pages/Maintenance.jsx";
+import Realizations from './pages/Realizations';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import BlogArticle from './pages/BlogArticle';
 import AboutUs from "./pages/AboutUs";
 
 import './styles/styles.css';
+import Lighting from "./pages/Lighting.jsx";
+import Automation from "./pages/Automation.jsx";
 
 function App() {
     const [blogsData, setBlogsData] = useState({})
@@ -18,7 +24,7 @@ function App() {
 
     useEffect(function () {
         fetch(
-            "http://127.0.0.1:5000/get-blogs",
+            "http://127.0.0.1:8000/get-blogs",
             {
                 method: 'GET',
             })
@@ -34,6 +40,12 @@ function App() {
             <Routes>
                 <Route exact path={'/'} element={<Home/>}/>
                 <Route path={'/services'} element={<Services/>}/>
+                <Route path={'/installation'} element={<Installation/>}/>
+                <Route path={'/renovation-et-mise-aux-normes'} element={<Renovation/>}/>
+                <Route path={'/depannage-et-maintenance'} element={<Maintenance/>}/>
+                <Route path={'/eclairage'} element={<Lighting/>}/>
+                <Route path={'/domotique-et-objets-connectes'} element={<Automation/>}/>
+                <Route path={'/realisations'} element={<Realizations/>}/>
                 <Route path={'/contact'} element={<Contact/>}/>
                 <Route path={'/a-propos'} element={<AboutUs/>}/>
                 <Route exact path={'/blog'} element={<Blogs blogsData={blogsData} blogsFetched={blogsFetched}/>}/>

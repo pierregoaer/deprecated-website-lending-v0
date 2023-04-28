@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Helmet} from "react-helmet";
 
-import Hero from '../components/Hero';
+import Hero from '../components/HomeHero.jsx';
 import HomeAboutUs from '../components/HomeAboutUs';
 import HomeServices from '../components/HomeServices';
 import Testimonials from '../components/Testimonials';

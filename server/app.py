@@ -68,5 +68,5 @@ def contact():
 
 if __name__ == "__main__":
     # TODO: Select proper run for DEV or PROD
-    app.run(host="127.0.0.1", debug=True)
+    app.run(port=8000, debug=True)
     # app.run()

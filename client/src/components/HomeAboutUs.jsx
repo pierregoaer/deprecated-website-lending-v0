@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 export default function HomeAboutUs() {
     return (
         <section className="home-about-us-container">
-            <div className="section-inner home-about-us-main">
+            <div className="section-inner secondary-section-padding home-about-us-main">
                 <div className="home-about-us-text">
                     <h2>Qui sommes-nous ?</h2>
                     <p>Notre entreprise d'électricité à Nîmes est née de la volonté de proposer des services de qualité et un accompagnement personnalisé à nos clients. Depuis plus de 10 ans, nous avons créé notre équipe composée d'électriciens qualifiés et expérimentés. Celle - ci met son savoir-faire au service des particuliers et des professionnels pour réaliser tous les types de projets électriques.</p>

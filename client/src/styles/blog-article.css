@@ -1,5 +1,5 @@
 article {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 80px auto 140px auto;
     padding: 0 20px;
 }
@@ -27,6 +27,7 @@ article {
     display: block;
     margin: 0 auto 90px auto;
     border-radius: 8px;
+    box-shadow: var(--box-shadow-main);
 }
 
 .blog-article-body h2 {
@@ -52,6 +53,7 @@ article {
 
 .blog-article-body li {
     margin-bottom: 10px;
+    list-style: square;
 }
 
 .blog-article-body img {

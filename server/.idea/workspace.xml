@@ -5,28 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1282ab0a-40b8-4f03-b6dd-f8512e0ac12d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../client/dist/assets/electricien-nimes-background-6d50235f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/assets/electricien-nimes-background-fc4da784.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/assets/index-f246a220.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/assets/index-f4ebe211.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/images/user-photo-default.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/logos/logo_favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/dist/logos/logo_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client/src/styles/silo-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Nav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Automation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Installation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Lighting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Maintenance.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Realizations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/pages/Renovation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/src/styles/support-page-service.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/assets/electricien-nimes-background-6d50235f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/assets/electricien-nimes-background-fc4da784.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/assets/index-f246a220.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/assets/index-f4ebe211.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/images/electricien-nimes-hero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/images/user-photo-default.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/logos/logo_favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/dist/logos/logo_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeHero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeAboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeAboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeFAQ.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeFAQ.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/HomeServices.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/components/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/components/Testimonials.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Blogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Contact.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/pages/Services.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/pages/Services.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/about-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/about-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/blog-article.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/blog-article.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/blogs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/silo-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/silo-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +153,7 @@
       <workItem from="1681900555775" duration="6757000" />
       <workItem from="1681995556128" duration="620000" />
       <workItem from="1682625244511" duration="608000" />
+      <workItem from="1682688092628" duration="2982000" />
     </task>
     <servers />
   </component>
@@ -149,7 +165,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/server$Google_Service_Account.coverage" NAME="App Coverage Results" MODIFIED="1681767317775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/server$App.coverage" NAME="App Coverage Results" MODIFIED="1682625253049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/server$App.coverage" NAME="App Coverage Results" MODIFIED="1682720905286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/server$app.coverage" NAME="app Coverage Results" MODIFIED="1681764382072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

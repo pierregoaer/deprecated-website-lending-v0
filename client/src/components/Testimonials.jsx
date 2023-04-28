@@ -7,7 +7,7 @@ import '../styles/testimonials.css'
 export default function Testimonials() {
     return (
         <section className="testimonials-container">
-            <div className="section-inner testimonials-main">
+            <div className="section-inner secondary-section-padding testimonials-main">
                 <div className="testimonials-text">
                     <h2>Nos clients sont satisfaits</h2>
                     <p>En tant qu'électricien à Nîmes, nous sommes fiers de vous présenter nos réalisations en matière de projets résidentiels. La satisfaction de nos clients est notre priorité. Nous mettons tout en œuvre pour vous offrir un service de qualité, adapté à vos besoins et à vos attentes.</p>

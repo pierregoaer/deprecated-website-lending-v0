@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function HomeServices() {
     return (
         <section className="home-services-container">
-            <div className="section-inner home-services-main">
+            <div className="section-inner secondary-section-padding home-services-main">
                 <div className="home-services-text">
                     <h2>Nos Services</h2>
                     <p>Intervention chez professionnels et particuliers dans la région de Nîmes, notre équipe d'experts

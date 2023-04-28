@@ -1,9 +1,8 @@
-.silo-text {
-    max-width: 900px;
-    margin: 20px auto 90px auto;
-    text-align: center;
-
-}
+/*.silo-text {*/
+/*    max-width: 900px;*/
+/*    margin: 20px auto 90px auto;*/
+/*    text-align: center;*/
+/*}*/
 
 .silo-cards {
     display: flex;
@@ -61,6 +60,12 @@
     flex-basis: 0;
 }
 
+.silo-card-image {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
 .silo-card-image img {
     border-radius: var(--border-radius-primary);
     width: 100%;
@@ -69,8 +74,15 @@
 }
 
 @media (max-width: 800px) {
+    .silo-card{
+        padding: 50px 25px;
+    }
     .silo-card,
     .silo-card:nth-child(even) {
         flex-direction: column-reverse;
+    }
+
+    .mobile-hidden {
+        display: none;
     }
 }
