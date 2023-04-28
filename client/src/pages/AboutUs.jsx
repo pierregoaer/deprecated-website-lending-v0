@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {Helmet} from "react-helmet";
 import {Link} from 'react-router-dom';
 
 import '../styles/about-us.css';
@@ -9,6 +10,19 @@ export default function AboutUs() {
     }, [])
     return (
         <>
+            <Helmet>
+                <title>À Propos de Notre Entreprise Électrique à Nîmes | Qualité & Sécurité</title>
+                <meta name="description"
+                      content="Découvrez notre entreprise d'électriciens à Nîmes : certifications, compétences, valeurs et engagement envers la qualité et la sécurité de nos clients."/>
+                <meta name="robots" content="index, follow"/>
+
+                <meta property="og:url" content="https://eletricien-nimes.com/a-propos"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="À Propos de Notre Entreprise Électrique à Nîmes | Qualité & Sécurité"/>
+                <meta property="og:description"
+                      content="Découvrez notre entreprise d'électriciens à Nîmes : certifications, compétences, valeurs et engagement envers la qualité et la sécurité de nos clients."/>
+                <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
+            </Helmet>
             <section className="about-us-intro-container">
                 <div className="section-inner about-us-intro-main">
                     <div className="about-us-intro-text">

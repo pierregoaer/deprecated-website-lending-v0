@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import {Helmet} from "react-helmet";
+
 
 import '../styles/contact.css';
 
@@ -46,6 +48,18 @@ export default function Contact() {
 
     return (
         <>
+            <Helmet>
+                <title>Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit</title>
+                <meta name="description"
+                      content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+                <meta name="robots" content="index, follow"/>
+
+                <meta property="og:url" content="https://eletricien-nimes.com/contact"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Contactez Votre Électricien à Nîmes | Demandez un Devis Gratuit"/>
+                <meta property="og:description" content="Contactez votre électricien à Nîmes pour un devis gratuit ou pour discuter de vos projets électriques. Nous sommes à votre service."/>
+                <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
+            </Helmet>
             <section className="contact-container">
                 <div className="section-inner contact-main">
                     <div className="contact-text">

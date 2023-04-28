@@ -19,22 +19,30 @@ export default function Nav() {
                 <ul className="nav-main-navigation" data-visible={mobileNavVisible}>
                     <li className="nav-main-navigation-dropdown">
                         {/*<p className="nav--main-navigation-title">Services</p>*/}
-                        <Link to={'/services'} onClick={handleDisplayMobileNav} className="nav-main-navigation-title">Services</Link>
+                        <Link to={'/services'} onClick={handleDisplayMobileNav}
+                              className="nav-main-navigation-title">Services</Link>
                         <ul className="nav-main-navigation-dropdown-list">
                             <li><Link to={'/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
-                            <li><Link to={'/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation et mise aux normes</Link></li>
-                            <li><Link to={'/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et maintenance</Link></li>
+                            <li><Link to={'/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
+                                et mise aux normes</Link></li>
+                            <li><Link to={'/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et
+                                maintenance</Link></li>
                             <li><Link to={'/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
-                            <li><Link to={'/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique et objets connectés</Link></li>
+                            <li><Link to={'/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
+                                et objets connectés</Link></li>
                         </ul>
                     </li>
                     <li className="nav-main-navigation-dropdown">
                         {/*<p className="nav--main-navigation-title">Réalisations</p>*/}
-                        <Link to={'/realisations'} onClick={handleDisplayMobileNav} className="nav-main-navigation-title">Réalisations</Link>
+                        <Link to={'/realisations'} onClick={handleDisplayMobileNav}
+                              className="nav-main-navigation-title">Réalisations</Link>
                         <ul className="nav-main-navigation-dropdown-list">
-                            <li><Link to={'/projets-residentiels'} onClick={handleDisplayMobileNav}>Projets résidentiels</Link></li>
-                            <li><Link to={'/projets-commerciaux'} onClick={handleDisplayMobileNav}>Projets commerciaux</Link></li>
-                            <li><Link to={'/projets-industriels'} onClick={handleDisplayMobileNav}>Projets industriels</Link></li>
+                            <li><Link to={'/projets-residentiels'} onClick={handleDisplayMobileNav}>Projets
+                                résidentiels</Link></li>
+                            <li><Link to={'/projets-commerciaux'} onClick={handleDisplayMobileNav}>Projets
+                                commerciaux</Link></li>
+                            <li><Link to={'/projets-industriels'} onClick={handleDisplayMobileNav}>Projets
+                                industriels</Link></li>
                         </ul>
                     </li>
                     <li className="nav-main-navigation-title">
@@ -44,10 +52,9 @@ export default function Nav() {
                         <Link to={'/blog'} onClick={handleDisplayMobileNav}>Blog</Link>
                     </li>
                 </ul>
-                <Link to={'/contact'} className="btn-primary nav-main-navigation-contact">
-                    Contact
-                </Link>
-                <div className="nav-mobile-nav-icon-container" data-visible={mobileNavVisible} onClick={handleDisplayMobileNav}>
+                <Link to={'/contact'} className="btn-primary nav-main-navigation-contact">Contact</Link>
+                <div className="nav-mobile-nav-icon-container" data-visible={mobileNavVisible}
+                     onClick={handleDisplayMobileNav}>
                     <div className={`mobile-nav-icon menu-top ${mobileNavVisible ? "active" : ""}`}></div>
                     <div className={`mobile-nav-icon menu-middle ${mobileNavVisible ? "active" : ""}`}></div>
                     <div className={`mobile-nav-icon menu-bottom ${mobileNavVisible ? "active" : ""}`}></div>
