@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
-import '../styles/support-page-service.css';
+import '../styles/support-page.css';
 
 export default function Lighting() {
     useEffect(() => {
@@ -42,7 +42,7 @@ export default function Lighting() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Installation d'éclairage intérieur et extérieur</h2>
                             <p>Un éclairage adapté est indispensable pour garantir votre confort et votre sécurité, que
                                 ce soit à l'intérieur de votre maison ou dans vos espaces extérieurs. Il permet de créer
@@ -63,7 +63,7 @@ export default function Lighting() {
                                 L'éclairage fonctionnel pour vos espaces de travail, cuisine ou salle de bains
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Pour vos espaces extérieurs, nous vous proposons également des solutions d'éclairage
                                 adaptées à vos besoins :</p>
                         </div>
@@ -82,7 +82,7 @@ export default function Lighting() {
                 </section>
                 <section className="inverted-section">
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Conseils en éclairage et économies d'énergie</h2>
                             <p>Un éclairage bien pensé permet d'améliorer votre confort, de valoriser vos espaces de vie
                                 et de réaliser des économies d'énergie. En tant qu'électricien à Nîmes, nous vous
@@ -103,7 +103,7 @@ export default function Lighting() {
                             </li>
                         </ul>
 
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Pour calculer les économies d'énergie réalisées grâce à nos conseils en éclairage, nous
                                 vous proposons un bilan énergétique personnalisé et des simulations pour estimer les
                                 économies potentielles sur votre facture d'électricité</p>
@@ -112,7 +112,7 @@ export default function Lighting() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Éclairage LED et domotique</h2>
                             <p>L'éclairage LED présente de nombreux avantages, en particulier pour les économies
                                 d'énergie et la durabilité :</p>
@@ -131,7 +131,7 @@ export default function Lighting() {
                                 couleurs.
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>La domotique permet de contrôler et de gérer votre éclairage à distance, en utilisant une
                                 application sur votre smartphone ou une interface dédiée. En tant qu'électricien à
                                 Nîmes, nous vous proposons des solutions d'éclairage connecté pour améliorer votre
@@ -151,7 +151,7 @@ export default function Lighting() {
                                 fonction de la présence de personnes ou des conditions de luminosité.
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Pour intégrer l'éclairage LED et la domotique dans votre projet d'éclairage à Nîmes, il
                                 suffit de nous contacter pour un devis personnalisé. Nous vous proposerons des solutions
                                 adaptées à vos besoins et à votre budget, en tenant compte de vos attentes en termes de

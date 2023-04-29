@@ -8,15 +8,16 @@ import Services from './pages/Services';
 import Installation from "./pages/Installation.jsx";
 import Renovation from "./pages/Renovation.jsx";
 import Maintenance from "./pages/Maintenance.jsx";
+import Lighting from "./pages/Lighting.jsx";
+import Automation from "./pages/Automation.jsx";
 import Realizations from './pages/Realizations';
+import ResidentialProjects from './pages/ResidentialProjects';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import BlogArticle from './pages/BlogArticle';
 import AboutUs from "./pages/AboutUs";
 
 import './styles/styles.css';
-import Lighting from "./pages/Lighting.jsx";
-import Automation from "./pages/Automation.jsx";
 
 function App() {
     const [blogsData, setBlogsData] = useState({})
@@ -46,6 +47,7 @@ function App() {
                 <Route path={'/eclairage'} element={<Lighting/>}/>
                 <Route path={'/domotique-et-objets-connectes'} element={<Automation/>}/>
                 <Route path={'/realisations'} element={<Realizations/>}/>
+                <Route path={'/projets-residentiels'} element={<ResidentialProjects/>}/>
                 <Route path={'/contact'} element={<Contact/>}/>
                 <Route path={'/a-propos'} element={<AboutUs/>}/>
                 <Route exact path={'/blog'} element={<Blogs blogsData={blogsData} blogsFetched={blogsFetched}/>}/>

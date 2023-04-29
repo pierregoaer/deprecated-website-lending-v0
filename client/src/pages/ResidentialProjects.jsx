@@ -4,53 +4,50 @@ import {Link} from "react-router-dom";
 
 import '../styles/support-page.css';
 
-export default function Maintenance() {
+export default function ResidentialProjects() {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
     return (
         <>
             <Helmet>
-                <title>Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes</title>
+                <title>Projets Électriques Résidentiels à Nîmes | Photos & Témoignages</title>
                 <meta name="description"
-                      content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+                      content="Parcourez nos projets électriques résidentiels à Nîmes : galerie de photos et témoignages de clients satisfaits. Confiez-nous vos projets !"/>
                 <meta name="robots" content="index, follow"/>
 
                 <meta property="og:url" content="https://eletricien-nimes.com/services"/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:title"
-                      content="Dépannage Électrique à Nîmes | Urgences 24/7 & Réparation de Pannes"/>
+                      content="Projets Électriques Résidentiels à Nîmes | Photos & Témoignages"/>
                 <meta property="og:description"
-                      content="Pour un dépannage électrique à Nîmes, faites appel à notre équipe d'urgence 24/7. Diagnostic et réparation de pannes, remplacement de composants."/>
+                      content="Parcourez nos projets électriques résidentiels à Nîmes : galerie de photos et témoignages de clients satisfaits. Confiez-nous vos projets !"/>
                 <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
             </Helmet>
-            <main className="support-page-service-container">
+            <main className="support-page-container">
                 <section className="support-page-hero">
                     <div className="hero-section-padding">
                         <div className="support-page-text-block">
-                            <h1>Dépannage et maintenance à Nîmes : Urgences 24/7, diagnostic et réparation de pannes,
-                                remplacement de composants défectueux</h1>
-                            <p>Les pannes électriques peuvent survenir à tout moment et causer de nombreux désagréments.
-                                En tant qu'électricien à Nîmes, nous vous proposons un service de dépannage électrique
-                                rapide et efficace pour résoudre vos problèmes électriques. Qu'il s'agisse d'une urgence
-                                électrique, d'un diagnostic de panne ou d'un remplacement de composants défectueux,
-                                notre équipe d'électriciens qualifiés est à votre service pour vous offrir des solutions
-                                adaptées à vos besoins. Découvrez nos prestations de dépannage électrique à Nîmes et
-                                laissez-vous convaincre par notre professionnalisme et notre expertise.</p>
+                            <h1>Projets résidentiels réalisés par votre électricien à Nîmes : Qualité et satisfaction
+                                garanties</h1>
+                            <p>Vous recherchez un électricien de confiance à Nîmes pour vos projets résidentiels ?
+                                Découvrez nos réalisations et l'expertise de notre équipe pour vous accompagner dans la
+                                réussite de vos projets électriques. En tant qu'électricien à Nîmes, nous mettons un
+                                point d'honneur à offrir un service de qualité, à la hauteur de vos attentes. Notre
+                                galerie de photos de projets résidentiels et les témoignages de nos clients satisfaits
+                                témoignent de notre engagement envers l'excellence et la satisfaction de nos
+                                clients.</p>
                         </div>
                     </div>
                 </section>
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text">
-                            <h2>Urgences électriques 24/7</h2>
-                            <p>Les urgences électriques peuvent être à l'origine de nombreux problèmes, tels que des
-                                coupures de courant, des courts-circuits ou des risques d'incendie. Il est important de
-                                faire appel à un électricien à Nîmes capable d'intervenir rapidement. Ainsi, vous
-                                minimisez les désagréments et garantissez votre sécurité. Notre service d'urgence
-                                électrique est disponible 24h/24 et 7j/7 pour vous assister en cas de besoin.</p>
-
-                            <p>Notre service d'urgence électrique à Nîmes est simple et rapide :</p>
+                            <h2>Construction neuve</h2>
+                            <p>Dans le cadre de la construction de maisons neuves, notre équipe d'électriciens à Nîmes
+                                intervient pour concevoir et réaliser des installations électriques conformes aux normes
+                                en vigueur et adaptées à vos besoins. Découvrez quelques exemples de nos réalisations en
+                                matière d'installations électriques pour des constructions neuves :</p>
                         </div>
                         <ul className="bullet-list-cards">
                             <li className="bullet-list-card">

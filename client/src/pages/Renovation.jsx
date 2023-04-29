@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
-import '../styles/support-page-service.css';
+import '../styles/support-page.css';
 
 export default function Renovation() {
     useEffect(() => {
@@ -39,7 +39,7 @@ export default function Renovation() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Mise aux normes</h2>
                             <p>La mise aux normes de votre installation électrique est essentielle pour assurer la
                                 sécurité de votre habitation ou de vos locaux professionnels. Une installation non
@@ -78,7 +78,7 @@ export default function Renovation() {
                 </section>
                 <section className="inverted-section">
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Remplacement de tableaux électriques</h2>
                             <p>Le tableau électrique est le cœur de votre installation électrique. Un tableau vétuste ou
                                 non conforme peut présenter des risques pour votre sécurité et celle de votre
@@ -96,7 +96,7 @@ export default function Renovation() {
                             </li>
                         </ul>
 
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Le remplacement d'un tableau électrique par notre équipe d'électriciens à Nîmes se
                                 déroule en plusieurs étapes :</p>
                         </div>
@@ -118,7 +118,7 @@ export default function Renovation() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Réparation de circuits électriques</h2>
                             <p>La réparation de circuits électriques est nécessaire en cas de dysfonctionnement de votre
                                 installation. Un circuit défectueux peut provoquer des pannes, une surconsommation
@@ -145,7 +145,7 @@ export default function Renovation() {
                                 Des coupures d’électricité
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Si vous constatez l'un de ces signes, il est recommandé de faire appel à un électricien à
                                 Nîmes. Notre expert pourra réaliser un diagnostic de votre installation et effectuer les
                                 réparations nécessaires.</p>

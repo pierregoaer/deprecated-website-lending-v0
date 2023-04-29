@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
-import '../styles/support-page-service.css';
+import '../styles/support-page.css';
 
 export default function Automation() {
     useEffect(() => {
@@ -39,7 +39,7 @@ export default function Automation() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Installation d’objets connectés</h2>
                             <p>Les objets connectés pour la maison sont nombreux et variés, offrant des fonctionnalités
                                 adaptées à vos besoins et à votre mode de vie. Parmi les principaux objets connectés que
@@ -63,7 +63,7 @@ export default function Automation() {
                                 électriques
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>L'installation d'objets connectés par notre équipe d'électriciens à Nîmes comprend
                                 plusieurs étapes clés :</p>
                         </div>
@@ -83,7 +83,7 @@ export default function Automation() {
                                 La formation à l'utilisation des objets connectés et de leur interface de contrôle
                             </li>
                         </ul>
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <p>Faire appel à un électricien professionnel pour l'installation d'objets connectés à Nîmes
                                 présente plusieurs avantages :</p>
                         </div>
@@ -106,7 +106,7 @@ export default function Automation() {
                 </section>
                 <section className="inverted-section">
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Conseils en domotique</h2>
                             <p>La domotique offre un vaste choix de solutions pour répondre à vos besoins en matière de
                                 confort, de sécurité et d'économies d'énergie. Il est donc essentiel de bien choisir les

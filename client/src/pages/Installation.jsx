@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
-import '../styles/support-page-service.css';
+import '../styles/support-page.css';
 
 export default function Installation() {
     useEffect(() => {
@@ -44,7 +44,7 @@ export default function Installation() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Installation électrique résidentielle</h2>
                             <p>Lors de la construction ou de la rénovation d'une maison, il est essentiel de confier
                                 l'installation électrique à un professionnel qualifié et expérimenté. En tant
@@ -82,7 +82,7 @@ export default function Installation() {
                 </section>
                 <section className="inverted-section">
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Installation électrique commerciale</h2>
                             <p>Les installations électriques commerciales requièrent une expertise spécifique. Cette
                                 expertise permet d’assurer la sécurité, l'efficacité énergétique et le confort de vos
@@ -121,7 +121,7 @@ export default function Installation() {
                 </section>
                 <section>
                     <div className="secondary-section-padding">
-                        <div className="support-page-service-text">
+                        <div className="support-page-text">
                             <h2>Installation électrique industrielle</h2>
                             <p>Les installations électriques industrielles sont complexes et requièrent une connaissance
                                 approfondie des normes et des contraintes spécifiques à ce secteur. En tant
