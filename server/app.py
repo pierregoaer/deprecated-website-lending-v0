@@ -19,10 +19,8 @@ app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
 
 # TODO: Select proper origin for DEV or PROD
-cors = CORS(app, resources={r'/*': {'origins': [os.environ['CORS_ORIGIN_DEV']]}})
-
-
-# cors = CORS(app, resources={r'/*': {'origins': [os.environ['CORS_ORIGIN_PROD']]}})
+# cors = CORS(app, resources={r'/*': {'origins': [os.environ['CORS_ORIGIN_DEV']]}})
+cors = CORS(app, resources={r'/*': {'origins': [os.environ['CORS_ORIGIN_PROD']]}})
 
 
 @app.route('/get-blogs')
@@ -68,5 +66,5 @@ def contact():
 
 if __name__ == "__main__":
     # TODO: Select proper run for DEV or PROD
-    app.run(port=8000, debug=True)
-    # app.run()
+    # app.run(port=8000, debug=True)
+    app.run()

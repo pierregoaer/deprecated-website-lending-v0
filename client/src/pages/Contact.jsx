@@ -36,7 +36,7 @@ export default function Contact() {
         }
         const dataJSON = JSON.stringify(formData);
 
-        fetch('http://127.0.0.1:5000/contact', {
+        fetch('https://api.electricien-nimes.com/contact', {
             method: 'POST',
             mode: 'cors',
             headers: {
